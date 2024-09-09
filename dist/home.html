@@ -1,44 +1,61 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home Page</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home Page</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
 
-  <link href="style.css" rel="stylesheet" />
+  <body>
+    <nav class="bg-orange-700 p-15 fixed top-0 w-full">
+      <div class="text-left text-xl text-white">Test-Up</div>
 
-</head>
-
-<body>
-  <nav class="bg-orange-700 p-20 fixed  top-0 w-full">
-
-    <div class="text-left text-xl text-white  ">Test-Up</div>
-
-    <ul class="flex  justify-end  items-center list-none gap-2 ">
-      <li><a class="text-yellow-400 no-underline text-lg text-white" href="home.html"> Home</a></li>
-      <li><a class="no-underline text-lg text-white" href="menu.html"> menu</a> </li>
-      <li><a class=" no-underline text-lg text-white" href="reservation.html"> reserve</a> </li>
-    </ul>
-  </nav>
-  <section>
-        <div class=" container w-3/4 my-0 mx-auto" >
-    <div class="flex flex-col  h-screen justify-center items-center bg-[url('img/restaurant.jpg')]" >
-   
-
-      <h2 class="text-yellow-400 text-center">Test-Up</h2>
-      <div class="text-lg text-center text-white">
-        <p>
-          Enjoy an unforgettable dining experience with the most delicious meals and dishes in our restaurant, where quality meets excellence to satisfy your tastes
-        </p>
+      <ul class="flex justify-end items-center list-none gap-2">
+        <li>
+          <a
+            class="text-yellow-400 no-underline text-lg text-white"
+            href="home.html"
+          >
+            Home</a
+          >
+        </li>
+        <li>
+          <a class="no-underline text-lg text-white" href="menu.html"> menu</a>
+        </li>
+        <li>
+          <a class="no-underline text-lg text-white" href="reservation.html">
+            reserve</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <section>
+      <div class="container w-3/4 my-0 mx-auto">
+        <div
+          class="flex flex-col h-screen justify-center items-center bg-[url('img/restaurant.jpg')]"
+        >
+          <h2 class="text-yellow-400 text-center">Test-Up</h2>
+          <div class="text-lg text-center">
+            <p>
+              Enjoy an unforgettable dining experience with the most delicious
+              meals and dishes in our restaurant, where quality meets excellence
+              to satisfy your tastes
+            </p>
+          </div>
+          <a
+            class="text-lg text-center text-white hover:opacity-85 bg-yellow-600"
+            href="menu.html"
+            >Check menu</a
+          >
+        </div>
       </div>
-      <a class="text-lg text-center text-white hover:opacity-85" href="menu.html">Check menu</a>
-    </div>
-    </div>
-  </section>
-  <footer class="bg-orange-700 p-10 fixed  bottom-0 w-full text-center text-white">
-    <p>nagham mahmoud &copy; 2024</p>
-  </footer>
-</body>
-
+    </section>
+    <footer
+      class="bg-orange-700 p-10 fixed bottom-0 w-full text-center text-white"
+    >
+      <p>nagham mahmoud &copy; 2024</p>
+    </footer>
+  </body>
 </html>
