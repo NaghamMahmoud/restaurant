@@ -600,18 +600,6 @@ video {
   top: 0px;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
-.z-auto {
-  z-index: auto;
-}
-
-.z-50 {
-  z-index: 50;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -662,12 +650,24 @@ video {
   width: 50%;
 }
 
+.w-1\/4 {
+  width: 25%;
+}
+
 .list-none {
   list-style-type: none;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -692,6 +692,18 @@ video {
 
 .rounded-2xl {
   border-radius: 1rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .border-2 {
@@ -727,21 +739,35 @@ video {
   background-image: url('img/restaurant.jpg');
 }
 
-.p-10 {
-  padding: 2.1rem;
-}
-.p-15 {
-  padding: 2.6rem;
+.p-5 {
+  padding: 1.25rem;
 }
 
+.p-7 {
+  padding: 1.75rem;
+}
 
-.p-20 {
-  padding: 5rem;
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
 
 .text-left {
