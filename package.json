@@ -1,5 +1,16 @@
 {
+  "name": "restaurant",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "dependencies": {},
+  "scripts": {
+    "tw": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.10"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

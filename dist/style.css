@@ -592,14 +592,6 @@ video {
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
@@ -610,14 +602,6 @@ video {
 
 .top-0 {
   top: 0px;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
-.top-24 {
-  top: 6rem;
 }
 
 .z-10 {
@@ -634,10 +618,6 @@ video {
   margin-bottom: 0px;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -650,28 +630,24 @@ video {
   margin-bottom: 1rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .mt-4 {
   margin-top: 1rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .box-border {
@@ -706,6 +682,10 @@ video {
   width: 100%;
 }
 
+.max-w-\[80\%\] {
+  max-width: 80%;
+}
+
 .list-none {
   list-style-type: none;
 }
@@ -714,20 +694,12 @@ video {
   flex-direction: column;
 }
 
-.items-start {
-  align-items: flex-start;
-}
-
 .items-center {
   align-items: center;
 }
 
 .items-baseline {
   align-items: baseline;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-end {
@@ -799,8 +771,8 @@ video {
   background-image: url('img/restaurant.jpg');
 }
 
-.bg-center {
-  background-position: center;
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-no-repeat {
